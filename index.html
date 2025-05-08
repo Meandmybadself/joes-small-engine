@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Small Engine Repair - Minnetonka, MN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        a {
+            color: #3498db;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #2980b9;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .tagline {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .header-contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 10px 0;
+            background-color: #34495e;
+        }
+        .header-contact-item {
+            color: white;
+            font-size: 0.9rem;
+        }
+        .header-contact-item a {
+            color: white;
+            text-decoration: underline;
+        }
+        .header-contact-item a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #3498db;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: calc(50% - 15px);
+        }
+        .service-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .info-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .info-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        .hours-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .hour-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .hour-row:last-child {
+            border-bottom: none;
+        }
+        .day {
+            font-weight: bold;
+        }
+        .closed {
+            color: #e74c3c;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-item {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .service-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Joe's Small Engine Repair</div>
+            <div class="tagline">Quality repairs you can count on in Minnetonka</div>
+        </div>
+    </header>
+    
+    <div class="header-contact">
+        <div class="header-contact-item">
+            <a href="https://www.google.com/maps/search/?api=1&query=5709+Glen+Ave,+Minnetonka,+MN+55345" target="_blank">5709 Glen Ave, Minnetonka, MN 55345</a>
+        </div>
+        <div class="header-contact-item">
+            Phone (texts preferred): <a href="tel:9525645825">(952) 564-5825</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="container">
+            <h2>Your Trusted Small Engine Repair Specialist</h2>
+            <p>We provide fast, reliable service for all your small engine repair needs.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="services">
+            <div class="service-card">
+                <h3>Quick Diagnosis</h3>
+                <p>We can usually diagnose issues and order necessary parts the same day you bring in your equipment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Fast Turnaround</h3>
+                <p>In most cases, repairs are completed within a couple of days, getting your equipment back to work quickly.</p>
+            </div>
+            <div class="service-card">
+                <h3>Convenient Drop-Off</h3>
+                <p>Simply bring your equipment to our shop during business hours for service.</p>
+            </div>
+            <div class="service-card">
+                <h3>Pick-Up & Delivery</h3>
+                <p>We offer pick-up and delivery services throughout the Minnetonka area for your convenience.</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Hours of Operation</h2>
+            <div class="hours-container">
+                <div class="hour-row">
+                    <span class="day">Monday</span>
+                    <span>11 AM–4 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Tuesday</span>
+                    <span>11 AM–4 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Wednesday</span>
+                    <span>11 AM–4 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Thursday</span>
+                    <span>11 AM–4 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Friday</span>
+                    <span>11 AM–4 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Saturday</span>
+                    <span>11 AM–1 PM</span>
+                </div>
+                <div class="hour-row">
+                    <span class="day">Sunday</span>
+                    <span class="closed">Closed</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Address:</strong> <a href="https://www.google.com/maps/search/?api=1&query=5709+Glen+Ave,+Minnetonka,+MN+55345" target="_blank">5709 Glen Ave, Minnetonka, MN 55345</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Phone (texts preferred):</strong> <a href="tel:9525645825">(952) 564-5825</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p><a href="https://www.google.com/maps/search/?api=1&query=5709+Glen+Ave,+Minnetonka,+MN+55345" target="_blank" style="color: white; text-decoration: underline;">5709 Glen Ave, Minnetonka, MN 55345</a> | Phone (texts preferred): <a href="tel:9525645825" style="color: white; text-decoration: underline;">(952) 564-5825</a></p>
+            <p style="margin-top: 10px;">&copy; 2025 Joe's Small Engine Repair. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
